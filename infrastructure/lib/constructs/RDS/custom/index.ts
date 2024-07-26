@@ -40,7 +40,6 @@ export class CDKResourceInitializer extends Construct {
       {
         securityGroupName: `${id}FunctionSecurityGroup`,
         vpc: props.vpc,
-        allowAllOutbound: true,
       },
     );
 
